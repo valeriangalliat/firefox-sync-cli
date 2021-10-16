@@ -1,0 +1,32 @@
+{
+  "name": "firefox-sync-cli",
+  "version": "0.0.0",
+  "description": "Manage Firefox Sync from the CLI! ✨",
+  "license": "Unlicense",
+  "author": "Val (https://val.codejam.info)",
+  "files": [
+    "cli.js",
+    "ffs",
+    "oauth.js",
+    "password.js",
+    "prompt.js"
+  ],
+  "bin": {
+    "ffs": "ffs"
+  },
+  "repository": "valeriangalliat/firefox-sync-cli",
+  "scripts": {
+    "lint": "standard"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "firefox-sync": "^1.0.0",
+    "ini": "^2.0.0",
+    "prompts": "^2.4.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
