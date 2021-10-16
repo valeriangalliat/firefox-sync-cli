@@ -55,6 +55,20 @@ Commands:
   help [command]                      Display help for command.
 ```
 
+A typical flow will look like this:
+
+```sh
+ffs -c ~/.ffs-creds.json oauth
+ffs -c ~/.ffs-creds.json colections
+ffs -c ~/.ffs-creds.json get bookmarks --full
+```
+
+During authentication, this will create `~/.ffs-creds.json` to store the
+credentials necessary to access Firefox Sync.
+
+Further commands read credentials from this file to use that session to
+query the API.
+
 ## Authentication
 
 ### Email and password
