@@ -1,4 +1,4 @@
-# Firefox Sync CLI
+# Firefox Sync CLI [![npm version](http://img.shields.io/npm/v/firefox-sync-cli.svg?style=flat-square)](https://www.npmjs.org/package/firefox-sync-cli)
 
 > Manage Firefox Sync from the CLI! ✨
 
