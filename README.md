@@ -16,6 +16,14 @@ It features two ways to authenticate, one using a Firefox Accounts email
 and password to open a session, and one using OAuth. See more about them
 [below](#authentication).
 
+## Installation
+
+```sh
+npm install -g firefox-sync-cli
+```
+
+The command will be available as `ffs`. 😏
+
 ## Usage
 
 ```
