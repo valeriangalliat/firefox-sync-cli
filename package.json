@@ -1,6 +1,6 @@
 {
   "name": "firefox-sync-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manage Firefox Sync from the CLI! ✨",
   "license": "Unlicense",
   "author": "Val (https://val.codejam.info)",
