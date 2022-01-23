@@ -3,3 +3,7 @@
 const cli = require('./cli')
 
 cli(process.argv)
+  .catch(err => {
+    console.error(err.stack || err)
+    process.exit(1)
+  })
