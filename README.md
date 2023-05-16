@@ -59,7 +59,7 @@ A typical flow will look like this:
 
 ```sh
 ffs -c ~/.ffs-creds.json oauth
-ffs -c ~/.ffs-creds.json colections
+ffs -c ~/.ffs-creds.json collections
 ffs -c ~/.ffs-creds.json get bookmarks --full
 ```
 
